@@ -1,0 +1,36 @@
+Operator
+
+Sebuah operator adalah simbol atau frasa khusus yang dapat digunakan untuk memeriksa, mengubah, atau menggabungkan sebuah nilai. Contohnya operator penambahan (+) untuk menambahkan dua angka, seperti:
+
+
+let i = 1 + 2
+Atau operator logika AND (&&) untuk mengkombinasikan dua nilai boolean, seperti:
+
+
+if enteredDoorCode && passedRetinaScan {
+  // Melakukan sesuatu
+}
+Swift mempunyai dukungan operators standar seperti halnya bahasa pemrograman lain. Bahkan ia juga telah meningkatkan beberapa kemampuan agar tidak terjadi kesalahan yang sama. Contohnya untuk mencegah penggunaan yang salah ketika operator (==) digunakan, operator penugasan (=) tidak akan mengembalikan sebuah nilai. 
+
+Swift juga mendukung operator rentang sebagai jalan pintas mengekspresikan berbagai nilai. Contohnya seperti ini:
+
+
+let rangeA = 1..4
+Terminology
+Secara terminologi, Operator dibagi menjadi tiga bagian, yakni unary, binary atau ternary:
+
+Unary Operator beroperasi pada target tunggal. Terdapat dua macam, yang pertama adalah operator unary prefix yang muncul tepat sebelum targetnya, seperti !b. Dan yang kedua adalah operator unary postfix yang muncul setelah targetnya, seperti c!.
+Binary Operator beroperasi pada dua target. Ia memiliki sifat infix karena mereka muncul di antara dua target. Contohnya 2 + 3.
+Ternary Operator beroperasi pada tiga target. Seperti bahasa pemrograman lainnya, Swift hanya memiliki satu operator ternary, yakni operator kondisional ternary. Contohnya a ? b : c.
+Nilai yang dipengaruhi operator adalah operan. Dalam ekspresi 1 + 2, simbol + adalah operator biner. Sedangkan 1 dan 2 merupakan operannya.
+
+Nah tentunya pada modul ini, Anda akan belajar berbagai macam operator seperti:
+
+Arithmetic Operators
+Comparison Operators
+Logical Operators
+Bitwise Operators
+Assignment Operators
+Range Operators
+Misc Operators
+Nil-Coalescing Operator

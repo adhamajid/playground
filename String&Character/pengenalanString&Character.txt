@@ -1,0 +1,11 @@
+String merupakan serangkaian karakter, seperti “Hello World” atau “Dicoding Indonesia”. String dalam swift diwakili oleh tipe string. Nilai dari Swift dapat diakses dengan berbagai cara, termasuk sebagai kumpulan dari nilai-nilai character atau karakter.
+
+Tipe string dan character dalam Swift menyediakan sebuah kecepatan untuk bekerja dengan teks di dalam kode Anda melalui bantuan Unicode. Unicode merupakan standar internasional untuk pengodean, representasi, dan pemrosesan teks dalam sistem penulisan yang berbeda. Sintaks yang digunakan untuk membuat dan manipulasi string itu sangatlah ringan dan mudah untuk baca. Hal itu dikarenakan sintaks literal string yang mirip dengan bahasa lain, C contohnya.
+
+Penggabungan dua buah string juga dapat dilakukan dengan sangat mudah, yakni menggunakan beberapa operator, seperti operator plus/tambah (+). Mengatur string mutability dapat dilakukan dengan menetapkannya sebagai konstanta atau variabel, sama seperti nilai lainnya di dalam Swift.
+
+Anda juga dapat menggunakan string untuk menyisipkan konstanta, variabel, literal, dan ekspresi lain ke dalam string yang lebih panjang. Proses ini dikenal dengan interpolasi string, yang mana akan memudahkan Anda dalam membuat nilai khusus untuk ditampilkan, disimpan, dan dicetak ke dalam terminal.
+
+Terlepas dari kesederhanaan sintaksis, string di dalam Swift merupakan tipe yang cepat. String dalam swift juga dikatakan sebuah string modern yang mudah diimplementasikan di dalam kode Anda. Setiap string terdiri dari karakter encoding-independent Unicode dan menyediakan dukungan untuk mengakses karakter-karakter dalam bentuk representasi Unicode. 
+
+Tentu di dalam modul ini Anda akan belajar bagaimana membuat dan memanipulasi String di dalam kode. 

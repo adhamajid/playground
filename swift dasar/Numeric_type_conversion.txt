@@ -1,0 +1,15 @@
+Integer Conversion
+Ketika Anda menggunakan tipe data integer, 
+tentu ada batasan memory yang akan digunakan. 
+Kisaran angka yang dapat disimpan dalam bilangan integer pada konstanta atau 
+variabel berbeda untuk setiap jenis angka. 
+Konstanta atau variabel Int8 dapat menyimpan angka antara -128 sampai 127. 
+Sedangkan untuk UInt8 dapat menyimpan angka 0 sampai 255. 
+Angka yang tidak cocok dengan explicitly size, 
+akan dilaporkan sebagai kesalahan ketika dikompilasi.
+
+
+Setiap nilai numerik dapat menyimpan rentang nilai yang berbeda. 
+Anda harus mengikuti konversi yang ada berdasarkan kasus tertentu. 
+Pendekatan tersebut mencegah terjadinya kesalahan konversi. 
+Selain itu juga membantu Anda untuk menentukan tipe data konversi secara eksplisit dalam kode.
